@@ -97,7 +97,7 @@ firstName.setText(getIntent().getStringExtra("fname")+" "+getIntent().getStringE
 
                     URL url = new URL(link);
                     URLConnection conn = url.openConnection();
-
+//Hello please allow me commit
                     conn.setDoOutput(true);
                     OutputStreamWriter wr = new OutputStreamWriter(conn.getOutputStream());
 
